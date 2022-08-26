@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Responsive Product Card Component using CSS Flexbox and Reactjs
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -12,9 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -37,8 +35,8 @@ On Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repo of my solution] (https://github.com/MikeyOnyedika/product-preview-card-component-challenge)
+- Live Site URL: [see live demo here!!!](https://product-preview-card-challenge.netlify.app/)
 
 ## My process
 
@@ -51,34 +49,14 @@ On Mobile
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Setting up CSS custom properties also called CSS Variables - they'll prevent you from having to run around CSS files when you need to change the value of say a font size
 
 ### Continued development
 
-Semantic HTML
+These are some of the things I am still working on/struggling with;
 
+- Properly writing semantic HTML
+- Properly setting up css variables and general class styles
 
 ## Author
 

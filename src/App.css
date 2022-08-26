@@ -15,10 +15,6 @@
   --dark-blue-clr: hsl(212, 21%, 14%);
   --gray-blue-clr: hsl(228, 12%, 48%);
 
-  /* responsiveness */
-  --mobile: 375px;
-  --desktop: 1440px;
-
   /* spacing */
   --gap: 1rem;
   --border-radius: 0.5rem;
