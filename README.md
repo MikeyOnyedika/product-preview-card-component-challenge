@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-On Desktop
+**On Desktop**
 
 ![](./screenshot.png)
 
-On Mobile
+**On Mobile**
 
 ![](./screenshot-mobile.png)
 
@@ -41,9 +41,7 @@ On Mobile
 
 ### Built with
 
-- Vanilla CSS
-- CSS custom properties
-- Flexbox
+- CSS Flexbox
 - [React](https://reactjs.org/) - JS library
 
 ### Continued development
