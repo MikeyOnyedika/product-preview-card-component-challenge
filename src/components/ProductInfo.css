@@ -1,0 +1,66 @@
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--gap);
+    padding-inline: var(--padding-inline);
+    padding-block: calc(var(--padding-block) * 2);
+}
+
+.product-title {
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-light);
+    letter-spacing: 0.2rem;
+}
+
+.product-name {
+    font-family: var(--ff-serif);
+    color: var(--dark-blue-clr);
+    font-size: var(--fs-h1);
+    line-height: 2rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-end: var(--padding-inline);
+    gap: var(--gap);
+}
+
+.price .main-price {
+    color: var(--primary-clr-dark);
+    font-family: var(--ff-serif);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+}
+
+.price .prev-price {
+    text-decoration: line-through;
+    font-size: calc(var(--fs-regular) * 0.85);
+}
+
+.add-to-cart-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.add-to-cart-wrapper>.btn {
+    display: flex;
+    gap: var(--gap);
+    width: 100%;
+    justify-content: center;
+    font-size: calc(var(--fs-regular) * 0.95);
+    font-weight: var(--fw-bold);
+}
+
+.add-to-cart-wrapper>.btn:hover {
+    background-color: var(--dark-blue-clr);
+}
+
+
+@media (max-width: 375px) {
+    .price {
+        justify-content: flex-start;
+    }
+}

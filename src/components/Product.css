@@ -1,0 +1,17 @@
+.product {
+    display: flex;
+    max-width: 35rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--bshadow);
+    background-color: var(--white-clr);
+}
+
+.product>div {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 575px) {
+    .product {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,17 @@
+.product-image-wrapper {
+    display: flex;
+}
+
+.product-image {
+    width: 100%;
+    content: url(../images/image-product-desktop.jpg);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+
+@media screen and (max-width: 575px) {
+    .product-image {
+        content: url(../images/image-product-mobile.jpg);
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+}

@@ -1,0 +1,69 @@
+:root {
+  /* typography */
+  --ff-serif: 'Fraunces', serif;
+  --ff-sans-serif: 'Montserrat', sans-serif;
+  --fs-regular: 0.88rem;
+  --fs-h1: calc(var(--fs-regular) * 2.2);
+  --fw-light: 500;
+  --fw-bold: 700;
+
+  /* colors */
+  --primary-clr: hsl(30, 38%, 92%);
+  --primary-clr-dark: hsl(158, 36%, 37%);
+
+  --white-clr: hsl(0, 0%, 100%);
+  --dark-blue-clr: hsl(212, 21%, 14%);
+  --gray-blue-clr: hsl(228, 12%, 48%);
+
+  /* responsiveness */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* spacing */
+  --gap: 1rem;
+  --border-radius: 0.5rem;
+  --padding-inline: 1.85rem;
+  --padding-block: 0.8rem;
+
+  --bshadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.App {
+  padding-inline: var(--padding-inline);
+  padding-block: var(--padding-block);
+}
+
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-clr);
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-clr-dark);
+  color: var(--white-clr);
+  padding-inline: var(--padding-inline);
+  padding-block: var(--padding-block);
+
+}
+
+p {
+  font-size: calc(var(--fs-regular) * 0.9);
+  line-height: 1.4rem;
+}
+
+
+@media (max-width: 575px) {
+
+  :root {
+    --fs-regular: 0.8rem;
+    --gap: 0.6rem;
+  }
+}
