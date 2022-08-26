@@ -46,9 +46,7 @@ Users should be able to:
 
 ### Continued development
 
-These are things I am still working on/struggling with;
-
-- Properly writing semantic HTML
+- Working on learning to properly write semantic HTML
 
 ## Author
 
