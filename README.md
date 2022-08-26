@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
@@ -35,8 +34,8 @@ On Mobile
 
 ### Links
 
-- Solution URL: [github repo of my solution] (https://github.com/MikeyOnyedika/product-preview-card-component-challenge)
-- Live Site URL: [see live demo here!!!](https://product-preview-card-challenge.netlify.app/)
+- Solution URL: [view repo on Github](https://github.com/MikeyOnyedika/product-preview-card-component-challenge)
+- Live Site URL: [view live demo here!!!](https://product-preview-card-challenge.netlify.app/)
 
 ## My process
 
@@ -47,13 +46,9 @@ On Mobile
 - Flexbox
 - [React](https://reactjs.org/) - JS library
 
-### What I learned
-
-- Setting up CSS custom properties also called CSS Variables - they'll prevent you from having to run around CSS files when you need to change the value of say a font size
-
 ### Continued development
 
-These are some of the things I am still working on/struggling with;
+These are things I am still working on/struggling with;
 
 - Properly writing semantic HTML
 - Properly setting up css variables and general class styles
