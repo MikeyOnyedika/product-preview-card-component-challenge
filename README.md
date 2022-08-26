@@ -49,7 +49,6 @@ Users should be able to:
 These are things I am still working on/struggling with;
 
 - Properly writing semantic HTML
-- Properly setting up css variables and general class styles
 
 ## Author
 
